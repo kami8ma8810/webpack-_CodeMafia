@@ -1,0 +1,24 @@
+{
+  "name": "webpackcodemafiaudemy",
+  "version": "1.0.0",
+  "description": "webpackudemy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kami8ma8810/webpack-_CodeMafia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kami8ma8810/webpack-_CodeMafia/issues"
+  },
+  "homepage": "https://github.com/kami8ma8810/webpack-_CodeMafia#readme",
+  "devDependencies": {
+    "webpack": "^5.26.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
