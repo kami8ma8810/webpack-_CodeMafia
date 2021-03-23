@@ -1,7 +1,10 @@
 h1 {
-	font-size: 10rem;
+	font-size: 5rem;
+	transition: all .4s;
+	display: flex;
 
 	&:hover {
+		transform: translateY(-8px);
 		color: red;
 	}
 }

@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-	mode: 'development',
+	mode: 'development', // or 'production'
 	entry: {
 		app: './src/app.js',
 	},
@@ -15,6 +15,7 @@ module.exports = {
 			use: [
 				'style-loader',
 				'css-loader',
+				'postcss-loader',
 				'sass-loader',
 			],
 		}],
